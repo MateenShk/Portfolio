@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c00fb2129e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+     <nav>
+        <a href="#" class="logo">Mateen</a>
+        <ul id="sidemenu">
+            <li><a href="#home">home</a> </li>
+            <li><a href="#about">About</a> </li>
+            <li><a href="#services">Services</a> </li>
+            <li><a href="#portfolio">Portfolio</a> </li>
+            <li><a href="#contact">Contact</a> </li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+     </nav> 
+     <div class="header-text">
+        <p>Mechanical Engineer</p>
+        <h1>Hi, I'm <span>Mateen</span> Shaikh <br> From Canada</h1>
+     </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img.jpg" alt="error">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Driven Mechanical Engineer with over 5 years of hands-on experience in project supervision, energy efficiency analysis, and mechanical design. Leveraging a solid foundation in engineering and a commitment to continuous learning, I am now seeking an exciting opportunity to apply my technical expertise and problem-solving skills in a dynamic project management role. My proven ability to collaborate effectively, manage projects, and communicate with diverse stakeholders positions me to excel in delivering successful projects while contributing to organizational growth and innovation.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>CAD/CAM</span><br>Designing Mechanical tools</li>
+                            <li><span>Microsoft Suite</span><br>Management Projects</li>
+                            <li><span>My SQL/Powerbi</span><br>Restoring and developing Data bases and projects</li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>06/2024 - 10/2024</span><br>Shift Lead at Mr.Puffs Dixie</li>
+                            <li><span>01/2024 - 06/2024</span><br>GRC Intern at CNCM LLC.</li>
+                            <li><span>10/2021 - 09/2022</span><br>Assistant Key Account Manager at Yoko Garage LLC.</li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Post Graduate Diploma at Sault Trios College</li>
+                            <li><span>2018</span><br>Bachleors in Mechanical engineering at DY Patil  Istitute</li>
+                            <li><span>2013</span><br>Diploma in Mechanical engineering at ARKP</li> 
+                        </ul>
+                    </div>
+                              
+                    
+                
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!-- --------sevices------------------ -->
+ <div id="services">
+    <div class="container">
+     <h1 class="sub-title">My Services</h1>   
+     <div class="services-list">
+        <div>
+            <i class="fa-solid fa-user-group"></i>
+            <h2> Project Coordinatior</h2>
+            <p>A detail-oriented and results-driven project coordinator, leveraging a strong foundation in mechanical engineering and project management to ensure seamless execution of projects from planning to completion.</p>
+            <a href="#">Learn more</a>
+        </div>
+     
+        <div>
+            <i class="fa-brands fa-uncharted"></i>
+            <h2> CAD/CAM Design</h2>
+            <p>With a strong background in Mechanical Engineering, I specialize in using CAD/CAM design tools to create precise, innovative, and manufacturable models that optimize production efficiency and product quality.</p>
+            <a href="#">Learn more</a>
+        </div>
+  
+        <div>
+            <i class="fa-solid fa-database"></i>        
+            <h2> My SQL/Powerbi</h2>
+            <p>With a solid foundation in Project Management and Engineering, I utilize MySQL and Power BI to design efficient data solutions and create insightful visualizations for informed decision-making and process optimization.</p>
+            <a href="#">Learn more</a>
+        </div>
+     </div>
+    </div>
+ </div>
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Project co.jpg" alt="Project Coordinator">
+                <div class="layer">
+                    <h3>Linking Teams and Stakeholders</h3>
+                    <p>A Project Coordinator ensures smooth project execution, teams and stakeholders with complete transparency.</p>
+                    <a href="#"><i class="fa-solid fa-file-lines"></i></a>
+                </div>
+                </div> 
+            <div class="work">
+                <img src="images/Cad design.webp" alt="CAD Design">
+                <div class="layer">
+                    <h3>Designing and Modeling</h3>
+                    <p>CAD/CAM designers create digital models and machining instructions to produce accurate, manufacturable products efficiently.</p>
+                    <a href="#"><i class="fa-solid fa-file-lines"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/SQL Developer.jpg.crdownload" alt="SQL Developer">
+                <div class="layer">
+                    <h3>SQL and Power BI Developer</h3>
+                    <p>SQL and Power BI developers collaborate to transform raw data into actionable insights through extraction, analysis, and visualization.</p>
+                    <a href="#"><i class="fa-solid fa-file-lines"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ------------contact---------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mateenshaikh1726@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 7304080760</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>  
+                </div>
+                <a href="images/Mateen CV.pdf" download class="btn btn2">Download CV</a>
+            </div>  
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>    
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Mateen. Made with <i class="fa-solid fa-heart"></i> by Mateen Shaikh</p>
+    </div>
+ </div>
+
+
+    <script src="port.js">
+
+        
+
+
+
+    </script>
+    <script>
+
+       var sidemenu = document.getElementById("sidemenu");
+
+       function openmenu(){
+        sidemenu.style.right = "0";
+       }
+       function closemenu(){
+        sidemenu.style.right = "-200px";
+       }
+
+    </script>
+    
+    
+
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbwNojToHxqcC9Ry66RqeljkwzkuCaHimuqeyrIRknMy3a79A-G56JypybgS4U7VrF2qDg/exec>'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>  
+</body>
+</html>
